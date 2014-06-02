@@ -5,7 +5,7 @@ package com.example.printref;
  * It displays test content and then allows to print it with the PRINT NOW button
  * if the HammermillPrint is installed, or prompts to install it otherwise.
  * Developers can use the same technique to embed printing into their apps
- * for more details visit http://printhand.com/integration.php
+ * for more details visit http://printhand.com/integration.php.
  */
 
 import java.io.File;
