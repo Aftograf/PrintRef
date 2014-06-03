@@ -73,7 +73,7 @@ public class MainActivity extends Activity implements RadioGroup.OnCheckedChange
 	    if (printAppInstalled)
 	    	item.setTitle("Print NOW");
 	    else
-	    	item.setTitle("Hammermill Print");
+	    	item.setTitle("Print");
 	    
 	    return super.onCreateOptionsMenu(menu);
 	}
@@ -96,7 +96,7 @@ public class MainActivity extends Activity implements RadioGroup.OnCheckedChange
 
 	/**
 	 * Selecting the content. In this reference app the for display is a set of 
-	 * pre-rendeded images, however the actual app can render content on the screen any 
+	 * pre-rendered images, however the actual app can render content on the screen any 
 	 * way possible.
 	 */
 	public void onCheckedChanged(RadioGroup group, int checkedId) {
