@@ -172,9 +172,12 @@ public class MainActivity extends Activity implements RadioGroup.OnCheckedChange
 	 * Writing content to a temporary file
 	 */
 	private void writeImageFile() {
+		int img_id = currentImageId;
+		if (img_id == R.drawable.promo)
+			img_id = R.drawable.promo2;
 		try
 	    {
-		    InputStream inputStream = getResources().openRawResource(currentImageId);
+		    InputStream inputStream = getResources().openRawResource(img_id);
 		    OutputStream out = new FileOutputStream(file);
 		    byte buf[] = new byte[1024];
 		    int len;
